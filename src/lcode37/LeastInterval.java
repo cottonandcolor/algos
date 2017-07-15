@@ -24,7 +24,7 @@ public class LeastInterval {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        char [] tasks = {'A','A','A','A','A','A'};
-        System.out.println(leastInterval(tasks, 2));
+        char [] tasks = {'A','B','B','A','B','B', 'C'};
+        System.out.println(leastInterval(tasks, 3));
     }
 }
